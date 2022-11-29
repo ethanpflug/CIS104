@@ -1,6 +1,6 @@
 import re
 
-hand = open('regex_sum_1648104.txt')
+hand = open('regex_sum_1648170.txt')
 numlist = []
 
 for line in hand:
@@ -15,3 +15,4 @@ for line in hand:
         numlist.append(num)
 
 print(sum(numlist))
+
